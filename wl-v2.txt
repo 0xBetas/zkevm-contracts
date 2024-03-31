@@ -1,0 +1,25 @@
+## Deployment Address
+Address: 0xe8fc98197cB231Bc1bA9028b054acFf35DDE9293
+PrvKey: 0x909a65003c0d99eeb2b83b806e149e8c4d2ccd1704f0d62572fdbd43296d8755
+mnemonic: "volcano insect element normal cute remind balcony silent trim blame whale talk"
+keystore: {"address":"e8fc98197cb231bc1ba9028b054acff35dde9293","id":"f4ea4563-eed2-4640-b0f8-45217f9c483b","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"1a3b10c64d38fbbf4f31789fad6e2151"},"ciphertext":"fc5c53b3590e23294f54735791c82d8de01d5a61a1711fb4c11431145cbd818b","kdf":"scrypt","kdfparams":{"salt":"3e1f26370b345d1444e65615feccacd9269b146d732826aa7f98abbbe141aa13","n":131072,"dklen":32,"p":1,"r":8},"mac":"1326e0e8ee4cf8d6ee6dc7412d862cad4eb26b5c468b8dc4e2fe00e22159ab41"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-28T03-08-31.0Z--e8fc98197cb231bc1ba9028b054acff35dde9293","mnemonicCounter":"d625e2805ed19ddde6b11ee1099618fb","mnemonicCiphertext":"27330ac657138ee047df6c3898f79fee","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted sequencer
+Address: 0x1909BD53c9Ee4cd29015961b11f88ce0Facc3b50
+PrvKey: 0xfdc5fc171a0a1aed3dd6fbf03b8247535ea9b043175abc66459d651166d4e5b1
+mnemonic: "wisdom learn soap sea program vital excuse tired swarm aerobic actress benefit"
+keystore: {"address":"1909bd53c9ee4cd29015961b11f88ce0facc3b50","id":"c32023a6-55fa-4794-92c7-f61cc29749d8","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"733abc74e45a398a86f5366484c22dde"},"ciphertext":"21726c599f477e3681a04d6991b3611641979e486514d768414d4bb88d8472ed","kdf":"scrypt","kdfparams":{"salt":"c35dd5adc86c7ea128d3f674db93f2b923f85e2bfada922626fc5760a4ab6d13","n":131072,"dklen":32,"p":1,"r":8},"mac":"35f7ba0fbabe7497dd248e733e3d783595965d4139771c0d3803514de4cdbbae"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-28T03-08-33.0Z--1909bd53c9ee4cd29015961b11f88ce0facc3b50","mnemonicCounter":"557868b99ebeda81bd52a48f06e4f582","mnemonicCiphertext":"ba8348573020600544804050b9467423","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted aggregator
+Address: 0xB3BA98294fBE634761E3475261f5dfb2f2c40BaF
+PrvKey: 0xa922425717e07146e83dec0356393f0d3607fdb292d1e9160e2889f206ddb379
+mnemonic: "border rib scrap modify public curve dinosaur discover drive project around work"
+keystore: {"address":"b3ba98294fbe634761e3475261f5dfb2f2c40baf","id":"ad0a6336-dfa9-4a9a-9e98-d0b318760c63","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"2dd2442d750f4c3b2ac5dc094c2421e4"},"ciphertext":"2e394f4f341222477e34f34f2d9ba314813a4ef8292d031ed0d9b1a4b453f394","kdf":"scrypt","kdfparams":{"salt":"e0c502a7ffe31a8d44c19b4c781c84b74d4590a57e3187a91cfffde26c330390","n":131072,"dklen":32,"p":1,"r":8},"mac":"89ce7d82f746481cf54ce2ea745eaba0f7f48fea3b98f12cf60fd3ad48a4c1e6"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-28T03-08-35.0Z--b3ba98294fbe634761e3475261f5dfb2f2c40baf","mnemonicCounter":"bcd76210c28363c692b43b7df9f71209","mnemonicCiphertext":"715c7fa81c2ef7c5c584aea06c4d8fa9","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## agglayer
+Address: 0x0693011E03629C4593d3Fb5276b4ed53697fe0b6
+PrvKey: 0x5984e680aa728a84d329087a068f4033ce6d4711ac76a3b6ef294fa6c3628136
+mnemonic: "space vacuum mammal broom ivory master harsh humor trap bike ten net"
+keystore: {"address":"0693011e03629c4593d3fb5276b4ed53697fe0b6","id":"c672add0-41a8-4624-abf1-06bac7e4e70d","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"247f0e6dede1fc45bddabb7d6cbb6056"},"ciphertext":"f0a30484b1162f1dcd3f23e4207382f03d60e6534c5042065ee1e4ae43fc08fa","kdf":"scrypt","kdfparams":{"salt":"4d51a0ac7618f10b7a518839c0420c5c0bdc4b4bf119950f001a0f0358fc91ea","n":131072,"dklen":32,"p":1,"r":8},"mac":"ba1287d4d453ffabf2665aef022b93e06fbc20b63efc0d6932bf6b2098d2435f"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-28T03-08-37.0Z--0693011e03629c4593d3fb5276b4ed53697fe0b6","mnemonicCounter":"12234f8b7f1952d0c4d7271d6b9f917c","mnemonicCiphertext":"daa29b2c2a1c15b94a94fd84b3539944","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## DAC
+Address: 0x5b762f8BF782A533258cBBEe285520F2d2FFe32b
+PrvKey: 0x119a6a8cacb4c22f92e2cb1f132cefd73e72695d58f485b2e6ae3b77481d72c0
+mnemonic: "swift bundle vehicle wasp fold dynamic obvious culture risk awake excuse vibrant"
+keystore: {"address":"5b762f8bf782a533258cbbee285520f2d2ffe32b","id":"8307f724-79be-406b-a418-775d52a23cc2","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"fafbab945d5bc8051baf6a47a8be1f59"},"ciphertext":"95b5a6c32ffc6e4d20a328a9ba61c4890e0aeaef05bf9d6b2471d824d8c9062e","kdf":"scrypt","kdfparams":{"salt":"c60adde8bd5bf734fd4a281e50b853c7b0b885c2f92bdc606167fe48c69b7b9f","n":131072,"dklen":32,"p":1,"r":8},"mac":"5ab345d11be1bce0588d7563d2cb19d49374d161e7c3a47f484b0b89274e076d"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-28T03-08-40.0Z--5b762f8bf782a533258cbbee285520f2d2ffe32b","mnemonicCounter":"9dc9cc77654f87b8fcc559372b022188","mnemonicCiphertext":"3be6d1c3253119c39af8101c4807574e","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}

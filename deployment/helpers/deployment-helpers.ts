@@ -3,7 +3,7 @@
 import {expect} from "chai";
 import {ethers} from "hardhat";
 
-const gasPriceKeylessDeployment = "100"; // 100 gweis
+const gasPriceKeylessDeployment = "5"; // 100 gweis
 // type Signer = ethers.types.Signer;
 import {Signer} from "ethers";
 import {HardhatEthersSigner} from "@nomicfoundation/hardhat-ethers/signers";

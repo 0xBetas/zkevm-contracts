@@ -92,9 +92,9 @@ async function main() {
     /*
      *Deployment pol
      */
-    const polTokenName = "Pol Token";
-    const polTokenSymbol = "POL";
-    const polTokenInitialBalance = ethers.parseEther("20000000");
+    const polTokenName = "Mock Token";
+    const polTokenSymbol = "MOCK";
+    const polTokenInitialBalance = ethers.parseEther("200000000");
 
     const polTokenFactory = await ethers.getContractFactory("ERC20PermitMock", deployer);
     const polTokenContract = await polTokenFactory.deploy(

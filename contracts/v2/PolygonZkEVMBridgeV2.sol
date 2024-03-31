@@ -501,21 +501,38 @@ contract PolygonZkEVMBridgeV2 is
                 gasTokenNetwork == originNetwork
             ) {
                 // Transfer gas token
-                /* solhint-disable avoid-low-level-calls */
-                (bool success, ) = destinationAddress.call{value: amount}(
-                    new bytes(0)
-                );
-                if (!success) {
+                if (destinationNetwork == _ZKEVM_NETWORK_ID) {
+                    /* solhint-disable avoid-low-level-calls */
+                    (bool success, ) = destinationAddress.call{value: amount * 1e10}(
+                        new bytes(0)
+                    );
+                    if (!success) {
                     revert EtherTransferFailed();
+                }
+                } else {
+                    /* solhint-disable avoid-low-level-calls */
+                    (bool success, ) = destinationAddress.call{value: amount}(
+                        new bytes(0)
+                    );
+                    if (!success) {
+                    revert EtherTransferFailed();
+                }
                 }
             } else {
                 // Transfer tokens
                 if (originNetwork == networkID) {
                     // The token is an ERC20 from this network
-                    IERC20Upgradeable(originTokenAddress).safeTransfer(
+                    if (originTokenAddress == gasTokenAddress) {
+                        IERC20Upgradeable(originTokenAddress).safeTransfer(
+                        destinationAddress,
+                        amount / 1e10
+                    );
+                    } else {
+                        IERC20Upgradeable(originTokenAddress).safeTransfer(
                         destinationAddress,
                         amount
                     );
+                    }
                 } else {
                     // The tokens is not from this network
                     // Create a wrapper for the token if not exist yet

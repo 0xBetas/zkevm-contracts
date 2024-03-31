@@ -47,11 +47,11 @@ const mainnetZkEVMBridgeProxyAddress = "0x2a3DD3EB832aF982ec71669E178424b10Dca2E
 const mainnetGlobalExitRootL2ImplementationAddress = "0x0200143Fa295EE4dffEF22eE2616c2E008D81688";
 
 const keylessDeployerMainnet = "0x9d90066e7478496e2284E54c3548106bb4F90E50";
-const deployerMainnet = "0x4c1665d6651ecEfa59B9B3041951608468b18891";
+const deployerMainnet = "0xe8fc98197cB231Bc1bA9028b054acFf35DDE9293";
 
-const mainnetMultisig = "0x4c1665d6651ecEfa59B9B3041951608468b18891";
-const mainnetInitialZkEVMDeployerOwner = "0x4c1665d6651ecEfa59B9B3041951608468b18891";
-const mainnetMinDelayTimelock = 864000;
+const mainnetMultisig = "0xe8fc98197cB231Bc1bA9028b054acFf35DDE9293";
+const mainnetInitialZkEVMDeployerOwner = "0xe8fc98197cB231Bc1bA9028b054acFf35DDE9293";
+const mainnetMinDelayTimelock = 1;
 
 const globalExitRootL2Address = "0xa40d5f56745a118d0906a34e69aec8c0db1cb8fa";
 const zkevmAddressL2 = ethers.ZeroAddress;

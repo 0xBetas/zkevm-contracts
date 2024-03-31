@@ -1,0 +1,16 @@
+
+## Deployment Address
+Address: 0xe49D2D2f599d3EBeeFB9807CC8EE7370d0F6D899
+PrvKey: 0xe3f71a16734239d9c0ee25f6de1beeafc645afccabd1c6954d17e14d4a102eb4
+mnemonic: "crew more betray among unit agent law gravity police hobby umbrella spread"
+keystore: {"address":"e49d2d2f599d3ebeefb9807cc8ee7370d0f6d899","id":"461dd2a7-eccb-4e20-bc7e-e0941f2b149c","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"7cc0aefb86384a6adf082b3f18e8725e"},"ciphertext":"274e04d7a6624f35090530c8c9e4a4bacda647ab89af95842f322b50d27bd3ab","kdf":"scrypt","kdfparams":{"salt":"0bbe5f837fbaf4868883fb3d7aeb1ef372b642f8e8c9da56bcf1979bee2633a3","n":131072,"dklen":32,"p":1,"r":8},"mac":"5201472c64e877886974767a6898e2e9c19b2f59cfcb41462df715ba1476631b"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-20T04-16-19.0Z--e49d2d2f599d3ebeefb9807cc8ee7370d0f6d899","mnemonicCounter":"97098d74af582f4e854c56e7fa0a7ec0","mnemonicCiphertext":"840141037f00defc05e37141115ffb34","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted sequencer
+Address: 0xF21495C8a90CB5682CA6a40B9691C95605c431E8
+PrvKey: 0x53bda8de034c1edb602a89e8820d8f03223f834b96b4e7f8a359672226e8fbab
+mnemonic: "humble predict sad safe immense annual yellow leg feed fatigue void once"
+keystore: {"address":"f21495c8a90cb5682ca6a40b9691c95605c431e8","id":"14180880-b995-4749-a5b8-4ff984b44971","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"37ffa614480f3ee608571fca01f94f37"},"ciphertext":"e750b9fd4dcc9a6f3773e89719a0c71a85f039ef99a59d137516e55f1dfc74fb","kdf":"scrypt","kdfparams":{"salt":"b844b930b0fd387aacad41a10d4c14a63aaf540bd01ca4e162341c5798815b92","n":131072,"dklen":32,"p":1,"r":8},"mac":"b672b7ce34982f21786716dccc366a6b32ea1d131d8b9b7e9a03729fbce6e100"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-20T04-16-21.0Z--f21495c8a90cb5682ca6a40b9691c95605c431e8","mnemonicCounter":"107622c937ba96fc0c3c34a08103a5fa","mnemonicCiphertext":"cfdb6967ede7525e7ba66d69b9f160e5","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted aggregator
+Address: 0xC247E2819fcf6218B2788A332050EEAB114F8536
+PrvKey: 0x76bf0694246fe46940c6b119364773e52dbd2a1a31ad9770aa88041008b7aaa1
+mnemonic: "silent nerve because prison foster lecture company music truck artist culture tackle"
+keystore: {"address":"c247e2819fcf6218b2788a332050eeab114f8536","id":"535b3e04-b61e-4cd2-b7ca-8d65e48e7882","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"1b57cfc54cf7cf7b23de243395faed95"},"ciphertext":"b0b922ac14419e6ec5bc821d7bbd3050d6b0bd03be6d9e4cd515bbd419d9d448","kdf":"scrypt","kdfparams":{"salt":"15c522f378557d7ca7e20b7ef2b6200c27a77cb6a35396b12ae5fc7c82d82fd6","n":131072,"dklen":32,"p":1,"r":8},"mac":"d979c3ea6c7763220d5f6abc31f7bf2db443af5327fe832d35343e089ca3526a"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-20T04-16-22.0Z--c247e2819fcf6218b2788a332050eeab114f8536","mnemonicCounter":"dc7b26d938e0fff84f21180e15e87bf5","mnemonicCiphertext":"18668b9d189a96b3be0efa836a4556fb","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}

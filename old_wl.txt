@@ -1,0 +1,25 @@
+## Deployment Address
+Address: 0x33A91579173DD9FC6fAbD028e4B89139C13bfd51
+PrvKey: 0x1ec4af453920a146223dc2f40597d9f888fe3192e2e70c328a2173c750c64463
+mnemonic: "obscure model garbage pool combine main orbit veteran stairs kiss allow bus"
+keystore: {"address":"33a91579173dd9fc6fabd028e4b89139c13bfd51","id":"b158c99d-7808-4ce8-86e7-1b23d1109bfd","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"058e596d783c249d71c309c0d27152d2"},"ciphertext":"61a2aef9b7a5f4499a5b7aae441d3862f61077217ea0c657fe85616ce0bb1ee8","kdf":"scrypt","kdfparams":{"salt":"ecfec5c03949b202538495604cd1fd6b0d2723535269cadf38c7326a9ee87cab","n":131072,"dklen":32,"p":1,"r":8},"mac":"c0152c86797d4676c0c5212580586d339f1d655833222df8462bc14a5f8b50ec"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-26T09-36-51.0Z--33a91579173dd9fc6fabd028e4b89139c13bfd51","mnemonicCounter":"82e4c598c059d8ec04a569d721954642","mnemonicCiphertext":"e7f14ba6a486a1716f194042c8b63614","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted sequencer
+Address: 0xEc3BaC1ECE0642814DA7411f1501C7EBc605325a
+PrvKey: 0x8147d9c09e83b0d064a917d4cf02c3ecd6b3757d2a10ddee11e92c8adcc2c718
+mnemonic: "cat liberty stomach door supply list behave make purpose offer head hole"
+keystore: {"address":"ec3bac1ece0642814da7411f1501c7ebc605325a","id":"ad4058b0-aa08-4063-bd33-8ee77e0e94b0","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"83e0058f8cb6a49be9dcff4af63407ae"},"ciphertext":"744c1be14b7914e07cf226f9bc41b30446e15ec3bf6dab38a75d2b44f54eafd3","kdf":"scrypt","kdfparams":{"salt":"2547e07a1edf375ea0ac672b42ddb37fc162e09230028a3b27a0c0ddf3e81ec7","n":131072,"dklen":32,"p":1,"r":8},"mac":"aaafeae5a93d84585bfa416121c2c0ff33ac49cbd513e85b4dbefa78b640de24"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-26T09-36-52.0Z--ec3bac1ece0642814da7411f1501c7ebc605325a","mnemonicCounter":"e0d6584b4c59100dd44ebffd22dffaa8","mnemonicCiphertext":"274d1ab812d1d3860942326b37875c6d","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## Trusted aggregator
+Address: 0xaC650139A23872867234f5bfdaeBFd8d1D4D81c1
+PrvKey: 0x5cd8ec20974f3b0025d369fcc2c49d2cf3a785f9bf3c405393de60f50d727153
+mnemonic: "argue better soldier typical truly hurt virtual opera galaxy few left twist"
+keystore: {"address":"ac650139a23872867234f5bfdaebfd8d1d4d81c1","id":"ef18aa75-c688-43e5-aefc-e3b1c7bf5ae1","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"75ab6e47c248c0fe39a4f1a0deae47ee"},"ciphertext":"81051e8384338e66d72498177f620346901b3d9ca48e1b47d84adc0e3e778376","kdf":"scrypt","kdfparams":{"salt":"0a90e81481038095e76e10695c6e627b2b577fc0c24ce23c167314ac2428b7bc","n":131072,"dklen":32,"p":1,"r":8},"mac":"e8aa992294b0b2a6eae567bacd432fe156a4a6695f8c3616d916e30a5268d1f2"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-26T09-36-54.0Z--ac650139a23872867234f5bfdaebfd8d1d4d81c1","mnemonicCounter":"c8c440d5f58a4716849835f1305522b3","mnemonicCiphertext":"d39e78fc36f6d66b86dc13944e572adc","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## agglayer
+Address: 0x50FD86c3C98f6c85E007AAf04688fd22f3cf8c68
+PrvKey: 0x6f60e794466c6450bcbaf65eda78ee35670f608b3353ae6f4a382a0155a9cb7b
+mnemonic: "rely envelope boring method elegant castle chimney garlic prepare wink certain chronic"
+keystore: {"address":"50fd86c3c98f6c85e007aaf04688fd22f3cf8c68","id":"355eac5c-c99d-4fca-bb9b-6174b0e7b706","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"c048318da9f333012caa8ea974549e1c"},"ciphertext":"382bc551fa4b1aa755521e5ddc6cd234b19c88ec7884b1365350abf4a22f36e8","kdf":"scrypt","kdfparams":{"salt":"7881582b358971ed0a1cc27de72743cc39ef63f8e5332ae5f26a7683c4e6593e","n":131072,"dklen":32,"p":1,"r":8},"mac":"2886bf586e6c8f01f80d1746501f50ae7cafeeaf02fc2e6a3e130906e7bb2f77"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-26T09-36-56.0Z--50fd86c3c98f6c85e007aaf04688fd22f3cf8c68","mnemonicCounter":"b9491156ee4df937e5041eb34ccb5855","mnemonicCiphertext":"c78d35f223ba0e6e083e35927fd98bf5","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
+\n\n## DAC
+Address: 0x38552751640E5704445Ce9B97b4Eff4C48cf9E2B
+PrvKey: 0xf12f51cb086710f85fc47c34b2b23e60ebb070c3b1dff6a0e7e24a018a59fb29
+mnemonic: "original best faith burger crunch lab warfare build upgrade library forward custom"
+keystore: {"address":"38552751640e5704445ce9b97b4eff4c48cf9e2b","id":"b45740d0-8781-4005-bef8-3696f2382f1e","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"c6e093d4f0342de0cae5eff5c53fead5"},"ciphertext":"c97694bf542b35807b9477351f5b02b2fb096c8ef26263b7cc5449bbea7a93d3","kdf":"scrypt","kdfparams":{"salt":"bcd3b89974d4933848135acea9f3aba22251260691cfc6899c830bc6cdf2213a","n":131072,"dklen":32,"p":1,"r":8},"mac":"c01b3427b058a5b6b693964ab7bf911f0bfe4fc3683e5a7bfbf9b15bcf4a5428"},"x-ethers":{"client":"ethers.js","gethFilename":"UTC--2024-03-26T09-36-57.0Z--38552751640e5704445ce9b97b4eff4c48cf9e2b","mnemonicCounter":"fd2d68b77674d5e4f8d7b756439314a2","mnemonicCiphertext":"259b3b75725ad9770b2f26060a6bf697","path":"m/44'/60'/0'/0/0","locale":"en","version":"0.1"}}
