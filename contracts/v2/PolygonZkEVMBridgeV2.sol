@@ -481,7 +481,15 @@ contract PolygonZkEVMBridgeV2 is
 
         // Transfer funds
         if (originTokenAddress == address(0)) {
+            
             if (address(WETHToken) == address(0)) {
+                emit ClaimEvent(
+                    11110,
+                    originNetwork,
+                    originTokenAddress,
+                    destinationAddress,
+                    amount
+                );
                 // Ether is the native token
                 /* solhint-disable avoid-low-level-calls */
                 (bool success, ) = destinationAddress.call{value: amount}(
@@ -493,6 +501,13 @@ contract PolygonZkEVMBridgeV2 is
             } else {
                 // Claim wETH
                 WETHToken.mint(destinationAddress, amount);
+                emit ClaimEvent(
+                    11111,
+                    originNetwork,
+                    originTokenAddress,
+                    destinationAddress,
+                    amount
+                );
             }
         } else {
             // Check if it's gas token
@@ -502,32 +517,60 @@ contract PolygonZkEVMBridgeV2 is
             ) {
                 // Transfer gas token
                 if (destinationNetwork == _ZKEVM_NETWORK_ID) {
+                    emit ClaimEvent(
+                        11112,
+                        originNetwork,
+                        originTokenAddress,
+                        destinationAddress,
+                        amount
+                    );
                     /* solhint-disable avoid-low-level-calls */
                     (bool success, ) = destinationAddress.call{value: amount * 1e10}(
                         new bytes(0)
                     );
                     if (!success) {
-                    revert EtherTransferFailed();
-                }
+                        revert EtherTransferFailed();
+                    }
                 } else {
+                    emit ClaimEvent(
+                        11113,
+                        originNetwork,
+                        originTokenAddress,
+                        destinationAddress,
+                        amount
+                    );
                     /* solhint-disable avoid-low-level-calls */
                     (bool success, ) = destinationAddress.call{value: amount}(
                         new bytes(0)
                     );
                     if (!success) {
-                    revert EtherTransferFailed();
-                }
+                        revert EtherTransferFailed();
+                    }
                 }
             } else {
                 // Transfer tokens
                 if (originNetwork == networkID) {
                     // The token is an ERC20 from this network
                     if (originTokenAddress == gasTokenAddress) {
+                        emit ClaimEvent(
+                            11114,
+                            originNetwork,
+                            originTokenAddress,
+                            destinationAddress,
+                            amount
+                        );
                         IERC20Upgradeable(originTokenAddress).safeTransfer(
                         destinationAddress,
                         amount / 1e10
                     );
                     } else {
+                        emit ClaimEvent(
+                            11115,
+                            originNetwork,
+                            originTokenAddress,
+                            destinationAddress,
+                            amount
+                        );
                         IERC20Upgradeable(originTokenAddress).safeTransfer(
                         destinationAddress,
                         amount
@@ -536,6 +579,13 @@ contract PolygonZkEVMBridgeV2 is
                 } else {
                     // The tokens is not from this network
                     // Create a wrapper for the token if not exist yet
+                    emit ClaimEvent(
+                        11116,
+                        originNetwork,
+                        originTokenAddress,
+                        destinationAddress,
+                        amount
+                    );
                     bytes32 tokenInfoHash = keccak256(
                         abi.encodePacked(originNetwork, originTokenAddress)
                     );
@@ -544,6 +594,13 @@ contract PolygonZkEVMBridgeV2 is
                     ];
 
                     if (wrappedToken == address(0)) {
+                        emit ClaimEvent(
+                            11117,
+                            originNetwork,
+                            originTokenAddress,
+                            destinationAddress,
+                            amount
+                        );
                         // Get ERC20 metadata
 
                         // Create a new wrapped erc20 using create2
