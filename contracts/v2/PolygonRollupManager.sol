@@ -1053,10 +1053,10 @@ contract PolygonRollupManager is
         // Pay POL rewards
         uint64 newVerifiedBatches = finalNewBatch - currentLastVerifiedBatch;
 
-        pol.safeTransfer(
-            beneficiary,
-            calculateRewardPerBatch() * newVerifiedBatches
-        );
+        // pol.safeTransfer(
+        //     beneficiary,
+        //     calculateRewardPerBatch() * newVerifiedBatches
+        // );
 
         // Update aggregation parameters
         totalVerifiedBatches += newVerifiedBatches;

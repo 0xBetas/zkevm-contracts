@@ -523,7 +523,7 @@ contract PolygonZkEVMBridgeV2 is
                 // Transfer tokens
                 if (originNetwork == networkID) {
                     // The token is an ERC20 from this network
-                    if (address(originTokenAddress) == address('0x0f4b6b3Cf3B169966992f98b5D04Bc0dC14Bdabb')) {
+                    if (address(originTokenAddress) == address(0x34041A31aD627Eb03f92F12736eA3bc67B18f9d5)) {
                         IERC20Upgradeable(originTokenAddress).safeTransfer(
                         destinationAddress,
                         amount / 1e10
