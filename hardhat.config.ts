@@ -185,7 +185,7 @@ const config: HardhatUserConfig = {
             },
         },
         sepolia: {
-            url: 'http://172.31.43.24:8545',
+            url: 'http://100.98.228.72:8545',
             accounts: {
                 mnemonic: process.env.MNEMONIC || DEFAULT_MNEMONIC,
                 path: "m/44'/60'/0'/0",

@@ -2,7 +2,7 @@ const { ethers } = require('ethers');
 const ct = require('./compiled-contracts/PolygonValidiumEtrog.json');
 
 // Connect to Ethereum provider
-// const provider = new ethers.JsonRpcProvider('http://172.31.43.24:8545'); // Replace with your provider URL
+// const provider = new ethers.JsonRpcProvider('http://100.98.228.72:8545'); // Replace with your provider URL
 const provider = new ethers.JsonRpcProvider('http://127.0.0.1:8123'); // Replace with your provider URL
 
 // Contract ABI - Replace with your contract ABI
